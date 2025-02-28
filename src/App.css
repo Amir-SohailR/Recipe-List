@@ -1,38 +1,88 @@
-.App {
-  text-align: center;
+
+*{
+    margin: 0;
+    
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.loader{
+    display: grid;
+    position: relative;
+    margin-top:15%;
+    align-items: center;
+}
+.Apps{
+    background-color: rgba(71, 148, 144, 0.842);
+    box-shadow:2px 5px 15px rgba(231, 231, 231, 0.973) ;
+    /*background-image: linear-gradient(30deg red,blue);*/
+        /*background-color: rgba(147, 253, 248, 0.322);*/
+}
+.list{
+
+    font:25px bolder;
+    display: flex;
+    position: relative;
+    
+    margin-bottom: 0px;
+    color: black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.selectValue{
+    width: 8.5rem;
+    text-align: center;
+}
+.cards{
+    border-radius: 8px;
+    color: white;
+    /*box-shadow:5px 5px 15px rgba(192, 27, 27, 0.856) ;*/
+    background-image:linear-gradient(30deg ,rgba(187, 99, 99, 0.589), rgba(54, 54, 117, 0.548));
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+.addCarts{
+    position: relative;
+    margin-right: 50px;
+}
+.addOpt{
+    position: relative;
+    margin-right: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+
+.cardMedias{
+    
+    background-color: white;
+    
+}
+.cardContents {
+    margin-top: 0px;
+    background-image:linear-gradient(to right,rgb(224, 224, 224), rgba(236, 70, 28, 0.486));
+    color: rgb(7, 6, 6);
+    /*font-size: 50px;*/
+    height: 150px;
+    font-weight: bolder;
+    
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/*boottom action area in card*/
+.cardActions{
+    display: flex;
+    height: 145px;
+    background-image:linear-gradient(30deg ,rgba(180, 102, 102, 0.336), rgba(54, 54, 117, 0.548));
 }
+.commentsIcon{
+    display: flex;
+    position: relative;
+    left: 150px;
+    size: 50px;
+    color: blue;
+}
+.commentBox{
+    display: flex;
+    position: relative;
+    left: 0px;
+    top: 50px;
+    color: blue;
+}
+

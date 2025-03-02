@@ -1,6 +1,6 @@
 
 *{
-    margin: 0;
+    margin: 0px;
     
 }
 
@@ -12,9 +12,9 @@
 }
 .Apps{
     
-    background-image: linear-gradient(170deg ,
-    rgba(252, 37, 37, 0.911),rgba(123, 123, 168, 0.404),rgba(221, 21, 221, 0.932));
-    box-shadow:2px 5px 15px rgba(231, 231, 231, 0.973) ;
+    background-image: linear-gradient(30deg ,
+    rgba(241, 0, 0, 0.801),rgba(0, 0, 223, 0.404),rgba(221, 21, 221, 0.932));
+    box-shadow:2px 5px 15px rgba(173, 17, 17, 0.973) ;
     /*background-image: linear-gradient(30deg red,blue);*/
         /*background-color: rgba(147, 253, 248, 0.322);*/
 }
@@ -36,10 +36,10 @@
 
 
 .cards{
-    border-radius: 8px;
+    border-radius: 2px;
     color: white;
     /*box-shadow:5px 5px 15px rgba(192, 27, 27, 0.856) ;*/
-    background-image:linear-gradient(30deg ,rgba(228, 19, 19, 0.685), rgba(54, 54, 117, 0.548));
+    background-image:linear-gradient(30deg ,rgb(161, 0, 0), rgba(1, 1, 182, 0.596));
 
 }
 .addCarts{

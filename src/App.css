@@ -5,19 +5,20 @@
 }
 
 .loader{
-    display: grid;
+    display: flex;
     position: relative;
-    margin-top:15%;
-    align-items: center;
+    top:"80%";
+    left:"80%";
 }
 .Apps{
-    background-color: rgba(71, 148, 144, 0.842);
+    
+    background-image: linear-gradient(170deg ,
+    rgba(252, 37, 37, 0.911),rgba(123, 123, 168, 0.404),rgba(221, 21, 221, 0.932));
     box-shadow:2px 5px 15px rgba(231, 231, 231, 0.973) ;
     /*background-image: linear-gradient(30deg red,blue);*/
         /*background-color: rgba(147, 253, 248, 0.322);*/
 }
 .list{
-
     font:25px bolder;
     display: flex;
     position: relative;
@@ -25,36 +26,34 @@
     margin-bottom: 0px;
     color: black;
 }
-
-
 .selectValue{
+    position: relative;
+    display: flex;
+    float:right;
     width: 8.5rem;
     text-align: center;
 }
+
+
 .cards{
     border-radius: 8px;
     color: white;
     /*box-shadow:5px 5px 15px rgba(192, 27, 27, 0.856) ;*/
-    background-image:linear-gradient(30deg ,rgba(187, 99, 99, 0.589), rgba(54, 54, 117, 0.548));
+    background-image:linear-gradient(30deg ,rgba(228, 19, 19, 0.685), rgba(54, 54, 117, 0.548));
 
 }
-
-
 .addCarts{
     position: relative;
     margin-right: 50px;
+    cursor: pointer;
 }
 .addOpt{
+    cursor: pointer;
     position: relative;
-    margin-right: 20px;
+    margin-left: 0px;
 }
 
 
-.cardMedias{
-    
-    background-color: white;
-    
-}
 .cardContents {
     margin-top: 0px;
     background-image:linear-gradient(to right,rgb(224, 224, 224), rgba(236, 70, 28, 0.486));
@@ -68,21 +67,20 @@
 /*boottom action area in card*/
 .cardActions{
     display: flex;
-    height: 145px;
+    height: 260px;
     background-image:linear-gradient(30deg ,rgba(180, 102, 102, 0.336), rgba(54, 54, 117, 0.548));
 }
 .commentsIcon{
     display: flex;
     position: relative;
-    left: 150px;
+    left: 60px;
     size: 50px;
-    color: blue;
 }
 .commentBox{
     display: flex;
     position: relative;
-    left: 0px;
-    top: 50px;
-    color: blue;
+    right: 500px;
+    top: 100px;
+    
 }
 

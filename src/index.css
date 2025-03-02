@@ -1,6 +1,7 @@
-
-body{
-    width: 99%;
-    background-image: linear-gradient(170deg ,
-     rgba(252, 37, 37, 0.911),rgba(123, 123, 168, 0.404),rgba(221, 21, 221, 0.932));
+body {
+    display:flex ;
+    position: relative;
+    margin-left: '50px';
+        background-image: linear-gradient(170deg,
+            rgba(252, 37, 37, 0.911), rgba(123, 123, 168, 0.404), rgba(221, 21, 221, 0.932));
 }
